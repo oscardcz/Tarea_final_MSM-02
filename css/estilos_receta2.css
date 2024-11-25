@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+header h1 {
+    background-color: #ff4727;
+    color: white;
+    padding: 2rem 2rem;
+}
+
+.ingredientes {
+    margin-top:50px;
+    font-size: 14pt;
+    border-top: 3px solid black
+}
+
+.procedimiento_1 {
+    font-size: 14pt;
+    
+}
+
+.imagen_2{
+    float: right;
+    margin-top: 75px;
+    margin-right: 75px;
+    max-width: 500px;
+}
+
+.clearfix_1::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: white
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:link {
+    color: yellow;
+}
+
+footer a:visited {
+    color: green;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
+footer a:active {
+    color: orange;
+}

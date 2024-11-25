@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 2rem 2rem;
+}
+
+header h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: all 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3)
+}
+
+section article h2, section article p {
+    margin: 1rem;
+    
+}
+
+.justificado {
+    text-align: justify; 
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: white
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:link {
+    color: #ffff00;
+}
+
+footer a:visited {
+    color: green;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
+footer a:active {
+    color: orange;
+}
+
+
+
+
