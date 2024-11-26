@@ -8,18 +8,18 @@ header h1 {
     padding: 2rem 2rem;
 }
 
-.ingredientes_5{
+.ingredientes_7{
     margin-top:50px;
     font-size: 14pt;
     border-top: 3px solid black
 }
 
-.procedimiento_5{
+.procedimiento_7{
     font-size: 14pt;
     
 }
 
-.imagen_6{
+.imagen_8{
     float: right;
     margin-top: 55px;
     margin-right: 55px;
@@ -27,11 +27,11 @@ header h1 {
     margin-bottom: 10px;
     max-width: 550px;
     max-height: 500px;
-    border: 5px solid rgb(59, 138, 27); 
+    border: 5px solid rgb(109, 57, 25); 
     box-shadow: 5px 5px 10px grey;
 }
 
-.clearfix_5::after {
+.clearfix_7::after {
     content: "";
     clear: both;
     display: table;

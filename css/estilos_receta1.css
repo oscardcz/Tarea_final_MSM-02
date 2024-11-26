@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-  }
+}
 
 header h1 {
     background-color: #ff4727;
@@ -23,9 +23,13 @@ header h1 {
 .imagen_1{
     float: right;
     margin-top: 75px;
-    margin-right: 75px;
-    max-width: 500px;
+    margin-right: 55px;
+    max-width: 350px;
+    max-height: 500px;
+    border: 5px solid rgb(105, 104, 102); 
+    box-shadow: 5px 5px 10px grey;
 }
+
 
 .clearfix::after {
     content: "";

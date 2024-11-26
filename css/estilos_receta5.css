@@ -22,8 +22,12 @@ header h1 {
 .imagen_5{
     float: right;
     margin-top: 55px;
-    margin-right: 75px;
-    max-width: 350px;
+    margin-right: 55px;
+    margin-left: 20px;
+    max-width: 550px;
+    max-height: 500px;
+    border: 5px solid rgb(59, 138, 27); 
+    box-shadow: 5px 5px 10px grey;
 }
 
 .clearfix_4::after {

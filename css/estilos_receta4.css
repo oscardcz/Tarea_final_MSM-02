@@ -24,6 +24,9 @@ header h1 {
     margin-top: 55px;
     margin-right: 75px;
     max-width: 350px;
+    max-height: 500px;
+    border: 5px solid rgb(196, 74, 18); 
+    box-shadow: 5px 5px 10px grey;
 }
 
 .clearfix_3::after {
